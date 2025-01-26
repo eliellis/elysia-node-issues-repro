@@ -1,0 +1,22 @@
+{
+  "name": "elysia-node-issues-repro",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "repro": "bun run reproduce.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/node": "^1.2.3",
+    "elysia": "^1.2.10",
+    "execa": "^9.5.2"
+  }
+}
